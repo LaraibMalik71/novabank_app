@@ -1,18 +1,17 @@
 
-# NovaBank
+# 🏦 NovaBank
 
-NovaBank is a modern mobile banking application developed using Flutter and Dart. It provides a clean, professional, and user-friendly banking interface with essential banking features, smooth navigation, and an intuitive digital banking experience.
+NovaBank is a modern mobile banking application built with **Flutter and Dart**, designed to provide a smooth, intuitive, and user-friendly digital banking experience.
 
-The application includes account management, money transfers, bill payments, mobile recharges, transaction tracking, card management, beneficiary management, and personalized profile settings.
+The application brings essential banking operations together in one place, including account management, money transfers, bill payments, mobile recharges, transaction tracking, card management, beneficiary management, and personalized profile settings.
 
-## Technology Badges
+## 🛠️ Technology Badges
 
 ![Flutter](https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart&logoColor=white)
 ![Provider](https://img.shields.io/badge/State%20Management-Provider-7B61A8)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white)
 ![Material 3](https://img.shields.io/badge/UI-Material%203-6750A4)
-
 
 <h2 align="center">📱 App Screenshots</h2>
 
@@ -76,38 +75,39 @@ The application includes account management, money transfers, bill payments, mob
 <p align="center">
   <img src="screenshots/beneficiaries.png" width="180" alt="Beneficiaries">
   <img src="screenshots/add_beneficiary.png" width="180" alt="Add Beneficiary">
-</p> 
+</p>
 
+## ✨ Features
 
-## Features
-
-- **Authentication:** User registration, login, and persistent sessions.
-- **Dashboard:** Account balance, quick actions, and recent transactions.
-- **Bank Transfers:** Transfer money using bank transfer functionality.
-- **Mobile Wallet Transfers:** Support for popular Pakistani mobile wallet options.
-- **Bill Payments:** User-friendly bill payment interface.
-- **Mobile Recharge:** Recharge mobile numbers.
-- **Add Money:** Add money to the account balance.
-- **Transaction Management:** View transaction history, filter transactions, and inspect transaction details.
-- **Transaction Status:** Successful, pending, and failed transaction handling.
+- **Authentication:** User registration, login, and persistent session management.
+- **Dashboard:** Displays account balance, quick action shortcuts, and recent transactions.
+- **Bank Transfers:** Provides an interface for making bank transfers.
+- **Mobile Wallet Transfers:** Supports popular Pakistani mobile wallet options.
+- **Bill Payments:** Provides a convenient interface for managing bill payments.
+- **Mobile Recharge:** Allows users to recharge mobile numbers.
+- **Add Money:** Allows users to add money to their in-app account balance.
+- **Transaction Management:** View transaction history, filter records, and inspect individual transaction details.
+- **Transaction Status:** Handles successful, pending, and failed transaction states.
 - **Beneficiary Management:** Add, view, and manage saved beneficiaries.
-- **Card Management:** View cards, edit nicknames, block or unblock cards, and remove cards.
-- **Notifications:** View in-app notifications and unread indicators.
-- **Profile Management:** Edit profile details, change password, manage appearance, and log out.
+- **Card Management:** View card details, edit card nicknames, block or unblock cards, and remove cards.
+- **Notifications:** View in-app notifications and track unread notifications.
+- **Profile Management:** Edit personal details, change password, manage app appearance, and log out.
 
-## Technology Stack
+> **Note:** NovaBank is an internship/demo application. Banking operations are handled locally within the application and are not connected to real banking services or payment networks.
+
+## 🧰 Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Flutter | Cross-platform application framework |
-| Dart | Programming language |
+| Flutter | Cross-platform mobile application development |
+| Dart | Application programming language |
 | Provider | State management |
-| SQLite (sqflite) | Local database |
-| SharedPreferences | Session and preference storage |
+| SQLite (sqflite) | Local data storage |
+| SharedPreferences | Session and user preference storage |
 | Cryptography | Password hashing |
-| Material 3 | UI design and components |
+| Material 3 | User interface design and components |
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```text
 novabank_app/
@@ -127,59 +127,66 @@ novabank_app/
 └── README.md
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+Follow these steps to set up and run NovaBank on your local machine.
+
+### 📋 Prerequisites
+
+Make sure you have the following installed:
 
 - Flutter SDK
 - Dart SDK
 - Android Studio or Visual Studio Code
-- Android emulator or physical device
+- Android emulator or a physical Android device
 
-### Installation
+### 📥 Installation
 
-1. Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/LaraibMalik71/novabank_app.git
 ```
 
-2. Navigate to the project folder:
+**2. Navigate to the project directory**
 
 ```bash
 cd novabank_app
 ```
 
-3. Install dependencies:
+**3. Install the required dependencies**
 
 ```bash
 flutter pub get
 ```
 
-4. Run the application:
+**4. Run the application**
 
 ```bash
 flutter run
 ```
 
-## Verification
+## 🧪 Verification
 
-Check the project for issues:
+Use the following commands to check code quality and run the project's tests.
+
+**Analyze the project**
 
 ```bash
 flutter analyze
 ```
 
-Run the tests:
+**Run automated tests**
 
 ```bash
 flutter test
 ```
 
-## Developer
+## 👩‍💻 Developer
 
 **Laraib Malik**
 
-- GitHub: [@LaraibMalik71](https://github.com/LaraibMalik71)
-- Repository: [NovaBank](https://github.com/LaraibMalik71/novabank_app)
+- **GitHub:** [@LaraibMalik71](https://github.com/LaraibMalik71)
+- **Project Repository:** [NovaBank](https://github.com/LaraibMalik71/novabank_app)
+
 
